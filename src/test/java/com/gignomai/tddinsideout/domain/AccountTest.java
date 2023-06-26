@@ -94,4 +94,5 @@ public class AccountTest {
 
         assertThat("Balance cannot be lower than withdraw amount.").isEqualTo(throwable.getMessage());
     }
+
 }
